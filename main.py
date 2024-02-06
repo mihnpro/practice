@@ -1,3 +1,3 @@
-print("Hello, world")
-for i in range(29):
-    pass
+with open(".env") as file:
+    read = file.readline()[10:-1]
+    print(read)
